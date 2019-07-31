@@ -13,6 +13,6 @@ spring:
   profiles: pro
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/user?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
     username: root
     password: 123456
